@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
-// import Hero from './Hero/page';
-import HeroPage from './HeroPage/page';
+// import HeroPage from './HeroPage/page';
+import Hero from './HeroTest/HeroTest';
 
 function Home() {
   return (
     <div>
-      <Link href='/hero'><HeroPage /></Link>
+      <Link href=''><Hero /></Link>
     </div>
   )
 }
